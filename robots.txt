@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/sitemap.xml

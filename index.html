@@ -1,0 +1,876 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Nassreddine El Makhlouq | Personal Portfolio</title>
+
+  <meta name="description"
+    content="Personal portfolio of Nassreddine El Makhlouq — web developer, electronics technician and educational robotics instructor based in Morocco.">
+
+  <meta name="theme-color" content="#08111f">
+
+  <link rel="canonical" href="https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/">
+
+  <meta property="og:title" content="Nassreddine El Makhlouq | Portfolio">
+  <meta property="og:description" content="Web development, electronics, robotics and digital projects.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/">
+  <meta property="og:image" content="https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/assets/profile-photo.webp">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Nassreddine El Makhlouq | Developer Portfolio">
+  <meta name="twitter:description" content="Web development, electronics, educational robotics and selected projects.">
+  <meta property="og:image:alt" content="Portrait of Nassreddine El Makhlouq">
+  <meta property="og:locale" content="en_US">
+
+  <link rel="preload" as="image" href="assets/profile-photo.webp" type="image/webp" fetchpriority="high">
+  <link rel="icon" href="assets/logo.webp">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="assets/style.css">
+
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Person","name":"Nassreddine El Makhlouq","alternateName":"نصر الدين المخلوق","url":"https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/","image":"https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/assets/profile-photo.webp","jobTitle":"Web Developer","address":{"@type":"PostalAddress","addressCountry":"MA"},"sameAs":["https://github.com/NASSREDDINE-net","https://www.linkedin.com/in/nassreddine-el-makhlouq/"]}
+  </script>
+  <script defer src="assets/app.js"></script>
+</head>
+
+<body>
+
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container nav">
+
+      <a class="brand" href="#home" aria-label="Nassreddine home">
+        <img src="assets/logo.webp" alt="Nassreddine logo" width="48" height="48" decoding="async">
+        <span>
+          NASSREDDINE
+          <small>Personal Portfolio</small>
+        </span>
+      </a>
+
+      <nav class="menu" id="primary-navigation" aria-label="Primary navigation">
+        <a href="#home" data-i18n="home"></a>
+        <a href="#about" data-i18n="about"></a>
+        <a href="#skills" data-en="Skills" data-ar="المهارات"></a>
+        <a href="#experience" data-en="Experience" data-ar="الخبرة"></a>
+        <a href="#projects" data-i18n="projects"></a>
+        <a href="#contact" data-i18n="contact"></a>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="lang-btn" onclick="toggleLang()" data-lang-label aria-label="Change language">
+          AR
+        </button>
+
+        <button type="button" class="icon-btn" onclick="toggleTheme()" data-theme-label aria-label="Change theme">
+          ☀
+        </button>
+
+        <button type="button" class="icon-btn menu-toggle" data-menu-toggle aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation">
+          ☰
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="container hero-grid">
+
+        <div class="hero-copy" data-reveal>
+
+          <span class="eyebrow">
+            <span class="dot"></span>
+            <span data-en="Available for opportunities" data-ar="متاح لفرص العمل والتعاون">
+            </span>
+          </span>
+
+          <p class="intro" data-en="Hello, I’m" data-ar="مرحباً، أنا">
+          </p>
+
+          <h1>
+            Nassreddine<br>
+            <span class="gradient">El Makhlouq</span>
+          </h1>
+
+          <h2 data-en="Web Developer · Electronics · Educational Robotics"
+            data-ar="مطور ويب · إلكترونيك · روبوتيك تعليمي">
+          </h2>
+
+          <p class="lead"
+            data-en="I create modern, responsive websites and combine software skills with a practical background in electronics and educational robotics."
+            data-ar="أصمم وأطور مواقع حديثة ومتجاوبة، وأجمع بين مهارات البرمجة وخلفية عملية في الإلكترونيك والروبوتيك التعليمي.">
+          </p>
+
+          <div class="actions">
+
+            <a class="btn primary" href="#projects" data-en="View my projects" data-ar="شاهد مشاريعي">
+            </a>
+
+            <a class="btn secondary" href="#contact" data-en="Contact me" data-ar="تواصل معي">
+            </a>
+
+            <a class="btn ghost" href="https://github.com/NASSREDDINE-net" target="_blank" rel="noopener">
+              GitHub ↗
+            </a>
+
+          </div>
+
+          <div class="quick-facts">
+            <span>📍 Morocco</span>
+            <span>💻 Web Development</span>
+            <span>⚡ Electronics</span>
+            <span>🤖 Robotics</span>
+          </div>
+
+        </div>
+
+
+        <aside class="profile-card" data-reveal>
+
+          <div class="profile-glow"></div>
+
+          <img class="profile-logo" src="assets/profile-photo.webp" alt="Portrait photograph of Nassreddine El Makhlouq" width="240" height="309" fetchpriority="high" decoding="async">
+
+          <div class="availability">
+            <span></span>
+            Open to work
+          </div>
+
+          <h3>Nassreddine El Makhlouq</h3>
+
+          <p>Developer & Technical Creative</p>
+
+          <div class="profile-stats">
+
+            <div>
+              <strong>5</strong>
+              <span>Featured projects</span>
+            </div>
+
+            <div>
+              <strong>3</strong>
+              <span>Technical fields</span>
+            </div>
+
+            <div>
+              <strong>AR / EN</strong>
+              <span>Languages</span>
+            </div>
+
+          </div>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about">
+
+      <div class="container">
+
+        <div class="section-head" data-reveal>
+
+          <div>
+            <span class="section-kicker">01 — About</span>
+
+            <h2 data-en="More than a web developer" data-ar="أكثر من مجرد مطور ويب">
+            </h2>
+          </div>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <article class="about-main card" data-reveal>
+
+            <p data-en="I’m Nassreddine El Makhlouq, a Morocco-based developer with a diploma in electronics and practical experience in educational robotics. I build responsive websites, digital interfaces and business platforms with a strong focus on usability, clarity and performance."
+              data-ar="أنا نصر الدين المخلوق، مطور من المغرب، حاصل على دبلوم في الإلكترونيك ولدي خبرة عملية في الروبوتيك التعليمي. أطور مواقع متجاوبة وواجهات رقمية ومنصات أعمال مع التركيز على سهولة الاستخدام والوضوح والأداء.">
+            </p>
+
+            <p data-en="My multidisciplinary background helps me understand problems as complete systems: analyse, design, test and improve."
+              data-ar="خلفيتي متعددة التخصصات تساعدني على فهم المشاكل كنظام متكامل: التحليل، التصميم، الاختبار ثم التحسين.">
+            </p>
+
+          </article>
+
+
+          <div class="about-cards">
+
+            <article class="mini-card" data-reveal>
+              <b>💻</b>
+
+              <h3 data-en="Web Development" data-ar="تطوير الويب">
+              </h3>
+
+              <p>
+                HTML, CSS, JavaScript, WordPress, GitHub Pages
+              </p>
+            </article>
+
+
+            <article class="mini-card" data-reveal>
+
+              <b>⚡</b>
+
+              <h3 data-en="Electronics" data-ar="الإلكترونيك">
+              </h3>
+
+              <p data-en="Circuits, troubleshooting and technical maintenance."
+                data-ar="الدوائر والتشخيص والصيانة التقنية.">
+              </p>
+
+            </article>
+
+
+            <article class="mini-card" data-reveal>
+
+              <b>🤖</b>
+
+              <h3 data-en="Educational Robotics" data-ar="الروبوتيك التعليمي">
+              </h3>
+
+              <p data-en="Training, supervision and practical technical projects."
+                data-ar="التكوين والإشراف والمشاريع التقنية التطبيقية.">
+              </p>
+
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="soft-section">
+
+      <div class="container">
+
+        <div class="section-head" data-reveal>
+
+          <div>
+
+            <span class="section-kicker">02 — Skills</span>
+
+            <h2 data-en="Technical toolkit" data-ar="المهارات التقنية">
+            </h2>
+
+            <p data-en="Tools I use to design, develop and publish complete digital experiences."
+              data-ar="الأدوات التي أستخدمها لتصميم وتطوير ونشر تجارب رقمية متكاملة.">
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+          <div class="skill-card" data-reveal>
+            <span>HTML5</span>
+            <b>95%</b>
+            <i style="--level:95%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>CSS3 / Responsive</span>
+            <b>90%</b>
+            <i style="--level:90%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>JavaScript</span>
+            <b>78%</b>
+            <i style="--level:78%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>WordPress</span>
+            <b>85%</b>
+            <i style="--level:85%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>Git & GitHub</span>
+            <b>82%</b>
+            <i style="--level:82%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>UI / UX Design</span>
+            <b>80%</b>
+            <i style="--level:80%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>Electronics</span>
+            <b>80%</b>
+            <i style="--level:80%"></i>
+          </div>
+
+          <div class="skill-card" data-reveal>
+            <span>Educational Robotics</span>
+            <b>85%</b>
+            <i style="--level:85%"></i>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+
+      <div class="container">
+
+        <div class="section-head" data-reveal>
+
+          <div>
+
+            <span class="section-kicker">03 — Experience</span>
+
+            <h2 data-en="Experience & learning" data-ar="الخبرات والتكوين">
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline">
+
+          <article class="timeline-item" data-reveal>
+
+            <small data-en="Web projects" data-ar="مشاريع الويب">
+            </small>
+
+            <h3 data-en="Independent Web Developer" data-ar="مطور ويب مستقل">
+            </h3>
+
+            <p data-en="Design and development of responsive personal, company and organisation websites published on GitHub Pages and WordPress."
+              data-ar="تصميم وتطوير مواقع شخصية ومواقع شركات ومنظمات متجاوبة، منشورة على GitHub Pages وWordPress.">
+            </p>
+
+          </article>
+
+
+          <article class="timeline-item" data-reveal>
+
+            <small>Algorithmics</small>
+
+            <h3 data-en="Educational Robotics Instructor" data-ar="مؤطر الروبوتيك التعليمي">
+            </h3>
+
+            <p data-en="Supervising learners, explaining technical concepts and guiding practical robotics activities."
+              data-ar="تأطير المتعلمين وشرح المفاهيم التقنية ومواكبة أنشطة الروبوتيك التطبيقية.">
+            </p>
+
+          </article>
+
+
+          <article class="timeline-item" data-reveal>
+
+            <small>OSC Maroc</small>
+
+            <h3 data-en="Digital & organisational contribution" data-ar="مساهمة رقمية وتنظيمية">
+            </h3>
+
+            <p data-en="Contribution to digital presence, communication and the organisation’s official website."
+              data-ar="المساهمة في الحضور الرقمي والتواصل والموقع الرسمي للمنظمة.">
+            </p>
+
+          </article>
+
+
+          <article class="timeline-item" data-reveal>
+
+            <small>RADEEC · DAMANE CASH</small>
+
+            <h3 data-en="Professional internships" data-ar="تجارب وتداريب مهنية">
+            </h3>
+
+            <p data-en="Field experience in technical and service environments, strengthening responsibility, communication and problem solving."
+              data-ar="خبرة ميدانية في بيئات تقنية وخدماتية عززت المسؤولية والتواصل وحل المشاكل.">
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="soft-section">
+
+      <div class="container">
+
+        <div class="section-head" data-reveal>
+
+          <div>
+
+            <span class="section-kicker">04 — Projects</span>
+
+            <h2 data-en="Selected work" data-ar="مشاريع مختارة">
+            </h2>
+
+            <p data-en="Real projects created for businesses, organisations and digital services."
+              data-ar="مشاريع حقيقية تم إنجازها للشركات والمنظمات والخدمات الرقمية.">
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+          <!-- PROJECT 01 -->
+          <article class="project-card card featured-project" data-reveal>
+
+            <a class="project-shot" href="https://morocco-projects.is-a.bot/" target="_blank" rel="noopener">
+
+              <img src="assets/morocco-projects-map.png" alt="Morocco Projects Map interactive map" loading="lazy" decoding="async">
+
+            </a>
+
+
+            <div class="project-body">
+
+              <div class="project-meta">
+
+                <span data-en="Interactive map" data-ar="خريطة تفاعلية">
+                </span>
+
+                <em>01</em>
+
+              </div>
+
+              <h3>Morocco Projects Map</h3>
+
+              <p data-en="An interactive map for discovering and exploring projects across Morocco, with locations, categories, search, filters and project information."
+                data-ar="خريطة تفاعلية لاكتشاف واستكشاف المشاريع في المغرب، مع المواقع والتصنيفات والبحث والتصفية ومعلومات المشاريع.">
+              </p>
+
+              <div class="tags">
+                <span>Leaflet</span>
+                <span>OpenStreetMap</span>
+                <span>JavaScript</span>
+                <span>JSON</span>
+              </div>
+
+              <div class="actions">
+
+                <a class="btn primary" href="https://morocco-projects.is-a.bot/" target="_blank" rel="noopener"
+                  data-en="Open map ↗" data-ar="فتح الخريطة ↗">
+                </a>
+
+                <a class="btn ghost" href="https://github.com/NASSREDDINE-net/morocco-projects-map" target="_blank"
+                  rel="noopener">
+                  GitHub
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 02 -->
+          <article class="project-card card" data-reveal>
+
+            <a class="project-shot" href="https://societemilana.org/" target="_blank" rel="noopener">
+
+              <img src="assets/milana-project.png" alt="MILANA website" loading="lazy" decoding="async">
+
+            </a>
+
+
+            <div class="project-body">
+
+              <div class="project-meta">
+
+                <span>Company website</span>
+
+                <em>02</em>
+
+              </div>
+
+              <h3>MILANA</h3>
+
+              <p data-en="Modern corporate website for construction, real estate, commerce, import-export and equipment rental services."
+                data-ar="موقع شركة حديث لخدمات البناء والعقار والتجارة والاستيراد والتصدير وتأجير المعدات.">
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="actions">
+
+                <a class="btn primary" href="https://societemilana.org/" target="_blank" rel="noopener">
+                  Live demo ↗
+                </a>
+
+                
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 03 — NASSER PDF -->
+          <article class="project-card card" data-reveal>
+
+            <a class="project-shot" href="https://nasserpdf.devs.surf/" target="_blank" rel="noopener">
+
+              <img src="assets/nasser-pdf-project.png" alt="NASSER PDF website" loading="lazy" decoding="async">
+
+            </a>
+
+
+            <div class="project-body">
+
+              <div class="project-meta">
+
+                <span data-en="PDF web application" data-ar="تطبيق ويب لأدوات PDF">
+                </span>
+
+                <em>03</em>
+
+              </div>
+
+              <h3>NASSER PDF</h3>
+
+              <p data-en="A web-based PDF utility platform for working with PDF documents through a simple, fast and accessible interface."
+                data-ar="منصة ويب لأدوات PDF للعمل مع مستندات PDF عبر واجهة بسيطة وسريعة وسهلة الاستخدام.">
+              </p>
+
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>PDF Tools</span>
+              </div>
+
+              <div class="actions">
+
+                <a class="btn primary" href="https://nasserpdf.devs.surf/" target="_blank" rel="noopener">
+                  Open website ↗
+                </a>
+
+                <a class="btn ghost" href="https://github.com/NASSREDDINE-net/nasser-pdf" target="_blank"
+                  rel="noopener">
+                  GitHub
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 04 — SI NASSER -->
+          <article class="project-card card" data-reveal>
+
+            <a class="project-shot" href="https://nassreddine-net.github.io/STORE/" target="_blank" rel="noopener">
+
+              <img src="assets/si-nasser-project.webp" alt="SI NASSER website" loading="lazy" decoding="async">
+
+            </a>
+
+
+            <div class="project-body">
+
+              <div class="project-meta">
+
+                <span>Digital services</span>
+
+                <em>04</em>
+
+              </div>
+
+              <h3>SI NASSER</h3>
+
+              <p data-en="Bilingual digital-services website with a modern interface for websites, documents and digital design services."
+                data-ar="موقع ثنائي اللغة للخدمات الرقمية بواجهة حديثة لخدمات المواقع والوثائق والتصميم الرقمي.">
+              </p>
+
+              <div class="tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="actions">
+
+                <a class="btn primary" href="https://nassreddine-net.github.io/STORE/" target="_blank" rel="noopener">
+                  Live demo ↗
+                </a>
+
+                <a class="btn ghost" href="https://github.com/NASSREDDINE-net/STORE" target="_blank" rel="noopener">
+                  GitHub
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+          <!-- PROJECT 05 — PORTFOLIO TEMPLATE -->
+          <article class="project-card card project-personal" data-reveal>
+
+            <a class="project-shot" href="https://nassreddine-net.github.io/portfolio-template1/" target="_blank"
+              rel="noopener">
+
+              <div class="project-visual">
+
+                <img src="assets/portfolio-template1-project.png" alt="Portfolio Template 1 screenshot" loading="lazy" decoding="async">
+
+              </div>
+
+            </a>
+
+
+            <div class="project-body">
+
+              <div class="project-meta">
+
+                <span data-en="Portfolio template" data-ar="قالب بورتفوليو">
+                </span>
+
+                <em>05</em>
+
+              </div>
+
+              <h3>Portfolio Template 1</h3>
+
+              <p data-en="A modern responsive portfolio template for developers, featuring a clean structure with Home, About, Projects, Skills and Contact sections."
+                data-ar="قالب بورتفوليو عصري ومتجاوب للمطورين، بهيكل منظم يضم أقسام الرئيسية والنبذة والمشاريع والمهارات والتواصل.">
+              </p>
+
+              <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsive</span>
+              </div>
+
+              <div class="actions">
+
+                <a class="btn primary" href="https://nassreddine-net.github.io/portfolio-template1/" target="_blank"
+                  rel="noopener" data-en="View template ↗" data-ar="عرض القالب ↗">
+                </a>
+
+                <a class="btn ghost" href="https://github.com/NASSREDDINE-net/portfolio-template1" target="_blank"
+                  rel="noopener">
+                  GitHub
+                </a>
+
+              </div>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services">
+
+      <div class="container">
+
+        <div class="section-head" data-reveal>
+
+          <div>
+
+            <span class="section-kicker">05 — Services</span>
+
+            <h2 data-en="What I can build" data-ar="الخدمات التي أقدمها">
+            </h2>
+
+          </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+          <article class="service-card" data-reveal>
+
+            <span>01</span>
+
+            <h3 data-en="Professional websites" data-ar="مواقع احترافية">
+            </h3>
+
+            <p data-en="Fast, responsive websites for individuals, organisations and companies."
+              data-ar="مواقع سريعة ومتجاوبة للأفراد والمنظمات والشركات.">
+            </p>
+
+          </article>
+
+
+          <article class="service-card" data-reveal>
+
+            <span>02</span>
+
+            <h3 data-en="WordPress websites" data-ar="مواقع WordPress">
+            </h3>
+
+            <p data-en="Installation, design, content structure and mobile optimisation."
+              data-ar="التثبيت والتصميم وتنظيم المحتوى وتحسين نسخة الهاتف.">
+            </p>
+
+          </article>
+
+
+          <article class="service-card" data-reveal>
+
+            <span>03</span>
+
+            <h3 data-en="Digital interfaces" data-ar="واجهات رقمية">
+            </h3>
+
+            <p data-en="Clean landing pages, portfolios and digital-service interfaces."
+              data-ar="صفحات هبوط وبورتفوليو وواجهات خدمات رقمية واضحة.">
+            </p>
+
+          </article>
+
+
+          <article class="service-card" data-reveal>
+
+            <span>04</span>
+
+            <h3 data-en="Website improvement" data-ar="تحسين المواقع">
+            </h3>
+
+            <p data-en="Responsive fixes, redesign, SEO foundations and performance improvements."
+              data-ar="إصلاح التجاوب وإعادة التصميم وأساسيات SEO وتحسين الأداء.">
+            </p>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+
+      <div class="container contact-box" data-reveal>
+
+        <div>
+
+          <span class="section-kicker">06 — Contact</span>
+
+          <h2 data-en="Let’s build something useful" data-ar="لننجز شيئاً مفيداً معاً">
+          </h2>
+
+          <p data-en="Available for web projects, junior developer opportunities and technical collaboration."
+            data-ar="متاح لمشاريع الويب وفرص المطور المبتدئ والتعاون التقني.">
+          </p>
+
+        </div>
+
+
+        <div class="contact-links">
+
+          <a href="mailto:nassreddineelmakhlouq@gmail.com">
+            Email ↗
+          </a>
+
+          <a href="contact.html">
+            Contact ↗
+          </a>
+
+          <a href="https://github.com/NASSREDDINE-net" target="_blank" rel="noopener">
+            GitHub ↗
+          </a>
+
+          <a href="https://www.linkedin.com/in/nassreddine-el-makhlouq/" target="_blank" rel="noopener">
+            LinkedIn ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="footer">
+
+    <div class="container footer-grid">
+
+      <div>
+
+        <strong>NASSREDDINE</strong>
+
+        <p>
+          Personal Portfolio · Morocco
+        </p>
+
+      </div>
+
+      <p>
+        © <span data-year></span> —
+        <span data-i18n="rights"></span>
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <button class="back-top" data-back-top aria-label="Back to top">
+    ↑
+  </button>
+
+</body>
+
+</html>
