@@ -51,7 +51,7 @@ function updateProgress() {
 }
 document.addEventListener("DOMContentLoaded", () => {
   applyLang(); applyTheme();
-  document.querySelectorAll("[data-year]").forEach(el => { el.textContent = new Date().getFullYear(); });
+  document.querySelectorAll("[data-year]").forEach(el => { el.textContent = "2026–2027"; });
   const menu = document.querySelector(".menu");
   const toggle = document.querySelector("[data-menu-toggle]");
   const setMenu = open => {
