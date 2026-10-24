@@ -1,16 +1,17 @@
 {
-  "name": "Nassreddine El Makhlouq Portfolio",
+  "name": "Nassreddine El Makhlouq | Portfolio",
   "short_name": "Nassreddine",
+  "description": "Web developer and digital maker from Morocco",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "background_color": "#070b14",
-  "theme_color": "#070b14",
+  "theme_color": "#f7f7f2",
+  "background_color": "#f7f7f2",
   "icons": [
     {
       "src": "assets/logo.webp",
-      "sizes": "512x512",
+      "sizes": "any",
       "type": "image/webp"
     }
-  ],
-  "scope": "./"
+  ]
 }
