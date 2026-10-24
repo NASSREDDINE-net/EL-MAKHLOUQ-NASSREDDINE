@@ -1,5 +1,11 @@
 <div align="center">
 
+<a href="https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/" title="Visit Nassreddine El Makhlouq Portfolio">
+  <img src="./assets/profile-photo.webp" alt="Personal portrait of Nassreddine El Makhlouq" width="170" />
+</a>
+
+<br />
+
 # NASSREDDINE EL MAKHLOUQ
 ### Web Developer · Digital Maker · Morocco
 
