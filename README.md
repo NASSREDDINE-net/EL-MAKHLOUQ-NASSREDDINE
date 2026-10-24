@@ -110,7 +110,7 @@ For deployment steps, see [DEPLOYMENT.md](./DEPLOYMENT.md).
 - **Email:** [nassreddineelmakhlouq@gmail.com](mailto:nassreddineelmakhlouq@gmail.com)
 - **GitHub:** [@NASSREDDINE-net](https://github.com/NASSREDDINE-net)
 - **LinkedIn:** [Professional profile](https://www.linkedin.com/in/nassreddine-el-makhlouq/)
-- **Telegram:** [@si_nasser_00](https://t.me/si_nasser_00)
+- **Telegram:** [@si_nasser_dev](https://t.me/si_nasser_dev)
 
 ## License
 
