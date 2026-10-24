@@ -1,6 +1,12 @@
 <div align="center">
 
 <a href="https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/" title="Visit Nassreddine El Makhlouq Portfolio">
+  <img src="./assets/header-brand.png" alt="NASSREDDINE EL MAKHLOUQ logo and wordmark" width="236" height="65" />
+</a>
+
+<br />
+
+<a href="https://nassreddine-net.github.io/EL-MAKHLOUQ-NASSREDDINE/" title="Visit Nassreddine El Makhlouq Portfolio">
   <img src="./assets/profile-photo.webp" alt="Personal portrait of Nassreddine El Makhlouq" width="170" />
 </a>
 
